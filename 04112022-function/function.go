@@ -22,3 +22,10 @@ func MultVal(pertama int, kedua string) (prt int, kda string) {
 	kda = kedua
 	return
 }
+
+// anonymous function
+var (
+	Ano = func(text string) string {
+		return text
+	}
+)

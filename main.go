@@ -15,5 +15,7 @@ func main() {
 	var a, b = function.MultVal(5, "value kedua")
 	fmt.Println(a) // 5
 	fmt.Println(b) // value kedua
+	var ano = function.Ano("Hiii")
+	fmt.Println(ano)
 
 }
