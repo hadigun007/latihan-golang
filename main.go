@@ -7,6 +7,10 @@ import (
 )
 
 func main() {
+	functions()
+}
+
+func functions() {
 	function.Function() // Latihan function
 	var hasilAdd = function.Add(50, 20)
 	fmt.Println(hasilAdd) // 70
@@ -17,5 +21,4 @@ func main() {
 	fmt.Println(b) // value kedua
 	var ano = function.Ano("Hiii")
 	fmt.Println(ano)
-
 }
