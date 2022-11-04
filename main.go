@@ -4,10 +4,12 @@ import (
 	"fmt"
 
 	function "github.com/hadigun007/latihan-golang/04112022-function"
+	structs "github.com/hadigun007/latihan-golang/04112022-struct"
 )
 
 func main() {
-	functions()
+	// functions()
+	structs0()
 }
 
 func functions() {
@@ -21,4 +23,10 @@ func functions() {
 	fmt.Println(b) // value kedua
 	var ano = function.Ano("Hiii")
 	fmt.Println(ano)
+}
+
+func structs0() {
+	var ini = structs.StrctName{}
+	ini.Name = "Hadi Gunawan"
+	fmt.Println(ini.Name)
 }
