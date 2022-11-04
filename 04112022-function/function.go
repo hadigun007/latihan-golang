@@ -3,12 +3,22 @@ package function
 import "fmt"
 
 // Function name must be in Caapitalize tobe visible
-func Hello() {
-	fmt.Println("Hello World")
+func Function() {
+	fmt.Println("Latihan function")
 }
 
-func Add(x, y int) int {
-	total := 0
-	total = x + y
-	return total
+func Sub(x, y int) int {
+	return x - y
+
+}
+func Add(x, y int) (hasil int) {
+	hasil = x + y
+	return
+}
+
+// return multiple value
+func MultVal(pertama int, kedua string) (prt int, kda string) {
+	prt = pertama
+	kda = kedua
+	return
 }

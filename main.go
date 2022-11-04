@@ -7,7 +7,13 @@ import (
 )
 
 func main() {
-	function.Hello()
-	fmt.Println(function.Add(50, 20))
+	function.Function() // Latihan function
+	var hasilAdd = function.Add(50, 20)
+	fmt.Println(hasilAdd) // 70
+	var hasilSub = function.Sub(10, 2)
+	fmt.Println(hasilSub) // 8
+	var a, b = function.MultVal(5, "value kedua")
+	fmt.Println(a) // 5
+	fmt.Println(b) // value kedua
 
 }
